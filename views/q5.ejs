@@ -1,0 +1,13 @@
+<% include partials/header.ejs%>
+<div class="quizForm">
+    <form action="/q5" method="POST">
+        <h3><%= question5.question%></h3>
+        <input name="answer" placeholder="Put letter of answer here.">
+        <h1>A. Adam relayed the message.</h1>
+        <h1>B. G-d relayed the message.</h1>
+        <h1>C. Moses relayed the message.</h1>
+        <h1>D. Asher relayed the message.</h1>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<% include partials/footer.ejs%>

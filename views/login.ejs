@@ -1,0 +1,12 @@
+<% include partials/header.ejs%>
+<div class="loginForm">
+    <form action="/login" method="POST">
+      <h1>Enter Your Username:</h1>
+      <div class="form-group">
+        <input type="text" class="form-control" id="username" name="username" aria-describedby="usernameHelp" placeholder="Name">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<% include partials/footer.ejs%>

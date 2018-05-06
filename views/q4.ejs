@@ -1,0 +1,13 @@
+<% include partials/header.ejs%>
+<div class="quizForm">
+    <form action="/q4" method="POST">
+        <h3><%= question4.question%></h3>
+        <input name="answer" placeholder="Put letter of answer here.">
+        <h1>A. Chanukah</h1>
+        <h1>B. Yom Kippur</h1>
+        <h1>C. Passover</h1>
+        <h1>D. Simchat Torah</h1>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<% include partials/footer.ejs%>

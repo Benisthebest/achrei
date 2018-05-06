@@ -1,0 +1,13 @@
+<% include partials/header.ejs%>
+<div class="quizForm">
+    <form action="/q2" method="POST">
+        <h3><%= question2.question%></h3>
+        <input name="answer" placeholder="Put letter of answer here.">
+        <h1>A. Aaron's sons died.</h1>
+        <h1>B. Adam's sons died.</h1>
+        <h1>C. Alter's sons died.</h1>
+        <h1>D. Alexander's sons died.</h1>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<% include partials/footer.ejs%>

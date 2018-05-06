@@ -1,0 +1,13 @@
+<% include partials/header.ejs%>
+<div class="quizForm">
+    <form action="/q6" method="POST">
+        <h3><%= question6.question%></h3>
+        <input name="answer" placeholder="Put letter of answer here.">
+        <h1>A. It forbids the consumption of blood.</h1>
+        <h1>B. It forbids drinking milk.</h1>
+        <h1>C. It forbids practicing the belief in more than one god.</h1>
+        <h1>D. It forbids eating animals.</h1>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<% include partials/footer.ejs%>

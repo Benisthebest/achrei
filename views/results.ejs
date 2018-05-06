@@ -1,0 +1,23 @@
+<%include partials/header.ejs%>
+<style>
+    hr{
+        background-color: white;
+        width:500px;
+    }
+    *{
+        color:white;
+    }
+    body{
+        background-color: grey;
+        background-size: cover;
+    }
+</style>
+<%users.forEach((user)=>{ %>
+    <div class="resDiv">
+        <h1 class="resH"><%=user.username%></h1>
+        <hr>
+        <h1 class="resH"><%=user.points%></h1>
+    </div>
+    <hr>
+<% });%>
+<%include partials/footer.ejs%>
